@@ -11,7 +11,7 @@ def hello(event, context):
         "statusCode": 200,
         "body": json.dumps(body)
     }
-
+    print ("vamos")
     return response
 
     # Use this code if you don't use the http event with the LAMBDA-PROXY
